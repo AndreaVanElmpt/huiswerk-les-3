@@ -57,34 +57,46 @@ p {
     /*margin: 3rem;*/
     position: absolute;
     top: 0;
-    bottom: 100px;
     z-index: -1;
     color: #F2F0FF;
     font-family: 'Roboto', sans-serif;
     font-size: 300px;
 
+
 }
 
 /* ------------------------------- 4. Areas ---------------------------------------- */
-section {
-    padding: 30px 0;
+.work {
+
+    color: #5722CD;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
     position: relative;
+    border: solid red;
+    }
+.work >article {
+    display: flex;
+    align-content: space-around;
+    flex-grow: 3;
+    flex-shrink: 1;
+    padding: 20px;
+
+    border: solid yellow;
 }
+
+
 #sec {
     color: #5722CD;
     display: flex;
     margin-top: 60px;
-    width: 500px;
-    flex-direction: column;
+    margin-bottom: 250px;
     justify-content: center;
 
-
-    border: solid yellow;
+    border: solid purple;
  }
+
 
 
 
@@ -123,6 +135,8 @@ header {
     flex-direction: column;
     justify-content: center;
     color: white;
+    border: solid yellow;
+
 }
 
 .paragraf {
@@ -131,11 +145,6 @@ header {
     align-self: center;
 
     /*border: solid purple;*/
-}
-
-#sec {
-    /*border: 5px solid purple;*/
-
 }
 
 button {
@@ -179,8 +188,14 @@ nav > ul {
 
 }
 
-nav a:hover{
-        hsl(110, 29%, 52%);
+nav a{
+    color: #F2F0FF;
+}
+
+nav a:hover {
+
+    color: #ED4385;
+
 }
 
 
